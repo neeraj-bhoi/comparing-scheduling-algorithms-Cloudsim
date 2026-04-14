@@ -1,0 +1,7 @@
+Algorithm,Makespan,AvgExecutionTime,AvgWaitingTime,AvgTurnaroundTime,AvgResponseTime,Throughput,CompletedCloudlets,TotalCloudlets,AvgCpuUtilization,LoadBalanceIndex,EnergyConsumption
+Round Robin,27.0995,18.1996,0.0000,18.1996,0.0000,1.8451,50,50,100.00,20.0805,52.9711
+First Come First Served (FCFS),25.0990,19.3393,0.0000,19.3393,0.0000,1.9921,50,50,100.00,21.6863,54.2341
+Min-Min,23.0990,16.9994,0.0000,16.9994,0.0000,2.1646,50,50,100.00,14.4985,48.2482
+Max-Min,23.0990,16.9994,0.0000,16.9994,0.0000,2.1646,50,50,100.00,12.4985,48.2482
+Ant Colony Optimization (ACO),29.2085,19.9590,0.0000,19.9590,0.0000,1.7118,50,50,100.00,29.7993,57.8082
+Priority-Based,24.0995,17.1195,0.0000,17.1195,0.0000,2.0747,50,50,100.00,13.7162,49.0543

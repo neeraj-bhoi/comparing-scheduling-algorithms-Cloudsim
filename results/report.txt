@@ -1,0 +1,105 @@
+=================================================================
+  COMPARATIVE ANALYSIS OF VM SCHEDULING ALGORITHMS
+  Using CloudSim 3.0.3
+=================================================================
+
+Hosts: 10
+VMs: 20
+Cloudlets: 50
+
+
+╔══════════════════════════════════════════════════════════╗
+║  Algorithm : Round Robin                                 ║
+╠══════════════════════════════════════════════════════════╣
+║  Makespan              : 27.0995    seconds             ║
+║  Avg Execution Time    : 18.1996    seconds             ║
+║  Avg Waiting Time      : 0.0000     seconds             ║
+║  Avg Turnaround Time   : 18.1996    seconds             ║
+║  Avg Response Time     : 0.0000     seconds             ║
+║  Throughput            : 1.8451     cloudlets/sec       ║
+║  Completed Cloudlets   : 50    / 50                   ║
+║  Avg CPU Utilization   : 100.00     %                  ║
+║  Load Balance Index    : 20.0805    (lower=better)     ║
+║  Energy Consumption    : 52.9711    Wh                 ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║  Algorithm : First Come First Served (FCFS)              ║
+╠══════════════════════════════════════════════════════════╣
+║  Makespan              : 25.0990    seconds             ║
+║  Avg Execution Time    : 19.3393    seconds             ║
+║  Avg Waiting Time      : 0.0000     seconds             ║
+║  Avg Turnaround Time   : 19.3393    seconds             ║
+║  Avg Response Time     : 0.0000     seconds             ║
+║  Throughput            : 1.9921     cloudlets/sec       ║
+║  Completed Cloudlets   : 50    / 50                   ║
+║  Avg CPU Utilization   : 100.00     %                  ║
+║  Load Balance Index    : 21.6863    (lower=better)     ║
+║  Energy Consumption    : 54.2341    Wh                 ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║  Algorithm : Min-Min                                     ║
+╠══════════════════════════════════════════════════════════╣
+║  Makespan              : 23.0990    seconds             ║
+║  Avg Execution Time    : 16.9994    seconds             ║
+║  Avg Waiting Time      : 0.0000     seconds             ║
+║  Avg Turnaround Time   : 16.9994    seconds             ║
+║  Avg Response Time     : 0.0000     seconds             ║
+║  Throughput            : 2.1646     cloudlets/sec       ║
+║  Completed Cloudlets   : 50    / 50                   ║
+║  Avg CPU Utilization   : 100.00     %                  ║
+║  Load Balance Index    : 14.4985    (lower=better)     ║
+║  Energy Consumption    : 48.2482    Wh                 ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║  Algorithm : Max-Min                                     ║
+╠══════════════════════════════════════════════════════════╣
+║  Makespan              : 23.0990    seconds             ║
+║  Avg Execution Time    : 16.9994    seconds             ║
+║  Avg Waiting Time      : 0.0000     seconds             ║
+║  Avg Turnaround Time   : 16.9994    seconds             ║
+║  Avg Response Time     : 0.0000     seconds             ║
+║  Throughput            : 2.1646     cloudlets/sec       ║
+║  Completed Cloudlets   : 50    / 50                   ║
+║  Avg CPU Utilization   : 100.00     %                  ║
+║  Load Balance Index    : 12.4985    (lower=better)     ║
+║  Energy Consumption    : 48.2482    Wh                 ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║  Algorithm : Ant Colony Optimization (ACO)               ║
+╠══════════════════════════════════════════════════════════╣
+║  Makespan              : 29.2085    seconds             ║
+║  Avg Execution Time    : 19.9590    seconds             ║
+║  Avg Waiting Time      : 0.0000     seconds             ║
+║  Avg Turnaround Time   : 19.9590    seconds             ║
+║  Avg Response Time     : 0.0000     seconds             ║
+║  Throughput            : 1.7118     cloudlets/sec       ║
+║  Completed Cloudlets   : 50    / 50                   ║
+║  Avg CPU Utilization   : 100.00     %                  ║
+║  Load Balance Index    : 29.7993    (lower=better)     ║
+║  Energy Consumption    : 57.8082    Wh                 ║
+╚══════════════════════════════════════════════════════════╝
+
+
+╔══════════════════════════════════════════════════════════╗
+║  Algorithm : Priority-Based                              ║
+╠══════════════════════════════════════════════════════════╣
+║  Makespan              : 24.0995    seconds             ║
+║  Avg Execution Time    : 17.1195    seconds             ║
+║  Avg Waiting Time      : 0.0000     seconds             ║
+║  Avg Turnaround Time   : 17.1195    seconds             ║
+║  Avg Response Time     : 0.0000     seconds             ║
+║  Throughput            : 2.0747     cloudlets/sec       ║
+║  Completed Cloudlets   : 50    / 50                   ║
+║  Avg CPU Utilization   : 100.00     %                  ║
+║  Load Balance Index    : 13.7162    (lower=better)     ║
+║  Energy Consumption    : 49.0543    Wh                 ║
+╚══════════════════════════════════════════════════════════╝
+
